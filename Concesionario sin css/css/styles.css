@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #97c0ee;
+    background: url('img/fondoneg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #444;
+    color: #97c0ee ;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #97c0ee ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f4b400;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cont1 {
+    border: 2px solid #97c0ee;
+    border-radius: 10px;
+    background-color: black;
+    color: #97c0ee;
+    padding: 20px;
+    margin: 20px auto; 
+    text-align: center;
+    width: 30%;
+    margin-bottom: 600px;
+}
+
+.cont1 hr{
+    color: #97c0ee;
+    justify-content: center;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cont1 a{
+    border: 2px solid grey;
+    text-decoration: none;
+    background-color: black ;
+    border-radius: 5px;
+    padding: 2px;
+    color: #97c0ee;
+}
+
+.cont1 a:hover{
+    background-color: #97c0ee;
+    color: black;
+}
+
+.cerrar a{
+   border: 2px solid grey;
+    text-decoration: none;
+    background-color: black ;
+    border-radius: 5px;
+    padding: 2px;
+    color: #97c0ee; 
+}
+
+
+.cerrar a:hover{
+    background-color: #97c0ee;
+    color: black;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 2px solid #97c0ee;
+    border-radius: 5px;
+    background-color: black;
+    color: #97c0ee;
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: #97c0ee;
+    opacity: 0.7;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: black;
+    border: 2px solid grey;
+    color: #97c0ee;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #97c0ee;
+    color: black;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: black;
+    color: #97c0ee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 2px solid #97c0ee;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #444;
+    color: #f4b400;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #222;
+}
+
+tr:hover {
+    background-color: #97c0ee;
+    color: black;
+    transition: 0.3s;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+a {
+    border: 2px solid grey;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px; 
+    color: #97c0ee;
+    display: inline-block;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #97c0ee;
+    color: black;
+}
+
+.centro{
+    text-align: center;
+}
+
+.aviso{
+    display: flex;
+    justify-content: center;
+}
