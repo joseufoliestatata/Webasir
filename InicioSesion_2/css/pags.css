@@ -1,0 +1,95 @@
+<?php
+session_start();
+
+$_SESSION['TIPO'] = '';
+
+?>
+<<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <style type="text/css">
+        body{
+            background-image: url('img/fondoneg.jpg');
+        }
+    </style>
+</head>
+</html>
+
+<?php
+            if($_SESSION['tipo'] === 'comp')
+            {
+                echo "<h1>Concesionario de Vehículos</h1>
+        <nav>
+            <ul>
+                <li><a href=coches.html>Coches</a></li>
+                <li><a href=usuarios.html>Usuarios</a></li>
+                <li><a href=alquileres.html>Alquileres</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Bienvenido a nuestro Concesionario</h2>
+        <p>Seleccione una de las secciones del menú para continuar.</p></main>";
+            }
+
+
+
+
+
+            elseif($_SESSION['tipo'] === 'vend')
+            {
+                echo " <h1>Concesionario de Vehículos</h1>
+        <nav>
+            <ul>
+                <li><a href='coches.html'>Coches</a></li>
+                <li><a href='usuarios.html'>Usuarios</a></li>
+                <li><a href='alquileres.html'>Alquileres</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Bienvenido a nuestro Concesionario</h2>
+        <p>Seleccione una de las secciones del menú para continuar.</p></main>";
+            }
+
+
+
+
+
+            elseif($_SESSION['tipo'] === 'adm')
+            {
+                {
+                    echo " <h1>Concesionario de Vehículos</h1>
+        <nav>
+            <ul>
+                <li><a href='coches.html'>Coches</a></li>
+                <li><a href='usuarios.html'>Usuarios</a></li>
+                <li><a href='alquileres.html'>Alquileres</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Bienvenido a nuestro Concesionario</h2>
+        <p>Seleccione una de las secciones del menú para continuar.</p></main>";
+                }
+            }
+            else 
+            {
+                echo" <h1>Concesionario de Vehículos</h1>
+        <nav>
+            <ul>
+                <li><a href='coches.html'>Coches</a></li>
+                <li><a href='usuarios.html'>Usuarios</a></li>
+                <li><a href='alquileres.html'>Alquileres</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Bienvenido a nuestro Concesionario</h2>
+        <p>Seleccione una de las secciones del menú para continuar.</p></main>";
+            }
+        ?>
