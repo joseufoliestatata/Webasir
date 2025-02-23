@@ -53,6 +53,6 @@ mysqli_close($conexion);
         <button type="submit">Añadir Coche</button>
     </form>
 
-    <br><a href="Listarcoc.php">Volver a inicio</a>
+    <br><a href="Index.php">Volver a inicio</a>
 </body>
 </html>

@@ -111,7 +111,9 @@ if (!isset($_SESSION['tipo'])) {
             <header> <h1>Concesionario de Vehículos</h1>
         <nav>
             <ul>
-                <li><a href='Listarcoc.php'>Ver coches</a></li>
+                <li><a href='coches.html'>Opciones coches</a></li>
+                <li><a href='Usuarios.html'>Opciones usuarios</a></li>
+                <li><a href='Alquileres.html'>Opciones alquileres</a></li>
             </ul>
         </nav></header>
         <main>

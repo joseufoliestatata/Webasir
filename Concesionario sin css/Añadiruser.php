@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $apellidos = $_POST['apellidos'];
     $dni = $_POST['dni'];
     $saldo = $_POST['saldo'];
-    $password = $_POST['password'];
+    $password =  password_hash($_POST['password'], PASSWORD_DEFAULT);
 
     $instruccion = "INSERT INTO usuarios (nombre, apellidos, dni, saldo, password) 
                     VALUES ('$nombre', '$apellidos', '$dni', '$saldo', '$password')";
@@ -27,6 +27,7 @@ mysqli_close($conexion);
 <html lang="es">
 <head>
     <title>Añadir Usuario</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
     <h1>Añadir Usuario</h1>
@@ -49,6 +50,6 @@ mysqli_close($conexion);
         <button type="submit">Añadir Usuario</button>
     </form>
 
-    <br><a href="conce.html">Volver a inicio</a>
+    <br><a href="Index.php">Volver a inicio</a>
 </body>
 </html>
